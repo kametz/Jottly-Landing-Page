@@ -1,0 +1,534 @@
+
+body {
+    background-color: #eaeaea;
+    font-family:"proxima-nova", sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1em;
+    line-height: 125%;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+}
+
+
+/* HEADER */
+.header {
+    padding-top: 10px;
+}
+
+.logo_div {
+    margin: 0 auto 5px auto;
+    max-width: 90%;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+nav {
+    font-family:"proxima-nova", sans-serif;
+    font-weight: 900;
+    font-size: .9em;
+    text-transform: uppercase;
+    color: #a5e1f9;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+nav a {
+    font-weight: 300;
+    background-color: #fff;
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #000;
+}
+
+nav a:visited {
+    color: #000;
+}
+
+nav a:hover {
+    color: #a5e1f9;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* main area links */
+main a {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* MAIN PHOTO */
+.main_photo {
+    background-image: url("images/laptop_workers_mobile.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_headline {
+    height: 290px;
+    width: 260px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+input {
+    color: #888;
+    margin-top: -15px;
+}
+
+#try_it {
+    background-color: #ff7e7b;
+    color: white;
+    text-transform: none;
+    padding: 0 15px;
+}
+
+
+/* HOW IT WORKS */
+.secondary_headline {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.hiw {
+    background-image: url("images/pink_bkg.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color:#fff5f5;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.hiw_text {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hiw_screenshot {
+    background-color: none;
+    height: 300px;
+    padding-left: 2px;
+    overflow: hidden;
+}
+
+
+/* USERS */
+.users {
+    padding-top: 25px;
+    background-image: url("images/user_bkg.png");
+    background-repeat: no-repeat;
+}
+
+.users_entry {
+    text-align: center;
+    align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.users_group {
+    padding: 35px 20px;
+}
+
+.users_group img {
+    max-width: 150px;
+}
+
+.users_group a {
+    font-weight: 400;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.hide_links_m {
+    display: none;
+}
+
+.users_group p {
+    margin-top: -10px;
+    padding: 0 15px;
+}
+
+
+/* LETTERSET IMAGE */
+#letterset_bucket {
+    width: 100%;
+    height: 100px;
+    min-height: 75px;
+    position: relative;
+}
+
+#letterset_image {
+    height: 100%;
+    position: relative;
+    background-image: url("images/letterset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+/* SIGN UP */
+.sign_up {
+    background-image: url("images/sign_up_bkg.png"), url("images/user_bkg.png");
+    background-repeat: no-repeat;
+    background-position: bottom, top;
+}
+
+.sign_up_group {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.su_hlblock {
+    display: block;
+    background-color: #01b7db;
+    color: #fff;
+    height: 150px;
+    text-align: center;
+    margin-top: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.su_dark_hlblock {
+    background-color: #0072bc;
+}
+
+.su_ul {
+    background-color: #eaeaea;
+}
+
+.sign_up ul {
+    min-height: 200px;
+    list-style-position: outside;
+    padding: 20px 10px 10px 25px;
+    font-size: .95em;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.plan {
+    
+    padding-top: 20px;
+}
+
+.plan h5 {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.plan h6 {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+    font-size: 2.0em;
+    text-transform: uppercase;
+    margin-top: -37px;
+}
+
+.plan p {
+    font-weight: 400;
+    font-size: .8em;
+    text-transform: none;
+    margin-top: -25px;
+}
+
+.learn p {
+    font-size: 1em;
+}
+
+.learn {
+    padding-top: 35px;
+}
+
+.start_creating {
+    margin: 20px auto 40px auto;
+    padding-top: -10px;
+    max-width: 400px;
+    text-align: center;
+    font-size:  1.5em;
+    width: 80%;
+}
+
+
+/* FOOTER */
+footer {
+    background-image: url("images/footer_bkg.png");
+    background-repeat: no-repeat;
+    color: #a9a9a9;
+    padding: 0 10px;
+}
+
+.bottom_nav {
+    float: left;
+}
+
+.footer_nameplate {
+    font-weight: 600;
+    font-size: 2em;
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: -10px;
+    color: #a5e1f9;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    background-color: inherit;
+    font-size: .8em;
+    padding: inherit;
+    display: inherit;
+    border-radius: inherit;
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #a9a9a9;
+}
+
+footer a:visited {
+    color: #a9a9a9;
+}
+
+footer a:hover {
+    color: #a5e1f9;
+}
+
+footer p {
+    font-size: .5em;
+    color: #666;
+    margin-top: -10px;
+}
+
+.questions a {
+    padding: 0;
+}
+
+.questions {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 650px) {
+
+    /* nav */
+    .logo {
+        width: 150px;
+        margin: 0 10px;
+    }
+
+    nav ul {
+        margin-top: 25px;
+        margin-right: 10px;
+        text-align: right;  
+    }
+
+    /* main photo */
+    .main_photo {
+        background-image: url("images/laptop_workers.jpg");
+        background-repeat: no-repeat;  
+        height: 100%;  
+        background-size: cover;  
+        background-position: left;  
+    }
+
+    .main_headline {
+        height: 260px;
+        width: 200px;
+        margin: 20px 0 0 20px;
+        text-align: left;
+    }
+
+    .main_headline h1 {
+        font-size: 2.4em;
+    }
+
+    .main_headline p {
+        font-size: 1.1em;
+        margin: -10px 0 15px 0;
+    }
+
+    input {
+        font-size: .7em;
+    }
+
+    #try_it {
+        padding: 0 5px;
+    }
+
+    /* how it works */
+    .hiw {
+        height: 559px;
+    }
+
+    .hiw_text {
+        padding-right: 0;
+        padding-left: 20px;
+    }
+
+    .hiw_screenshot {
+        height: 559px;
+        width: 100%;
+        padding-left: -20px;
+    }
+
+    /* sign up */
+    .sign_up_group {
+    width: 95%;
+    }
+}
+
+@media (min-width: 770px) {
+
+    /* main photo */
+    .main_headline {
+        height: 300px;
+        width: 270px;
+        margin: 20px 0 0 20px;
+    }
+
+    .main_headline h1 {
+        font-size: 2.9em;
+    }
+
+    .main_headline p {
+        font-size: 1em;
+    }
+
+    input {
+        font-size: .8em;
+    }
+
+    #try_it {
+        padding: 0 15px;  
+    }
+}
+
+@media (min-width: 925px) {
+
+    /* main photo */
+    .main_headline {
+        height: 390px;
+        margin: 40px 0 0 40px;
+        width: 270px;
+    }
+
+    .main_headline h1 {
+        font-size: 3.3em;
+    }
+
+    .main_headline p {
+        font-size: 1.1em;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 765px) {
+    
+    /* users */
+    .users h4 {
+        font-size: 24px;
+    }
+
+    .users_group a {
+        font-size: .9em;
+    }
+
+    .users_group p {
+        font-size: .8em;
+        height: 40px;
+        padding: 0 5px;
+    }
+
+    .hide_links_m {
+        display: inherit;
+    }
+
+    .hide_links_lg {
+    display: none;
+    }
+}
+
+@media (min-width: 766px) {
+
+    /* users */
+    .users_group p {
+        height: 85px;
+    }
+
+    .hide_links_m {
+        display: inherit;
+    }
+
+    .hide_links_lg {
+        display: none;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 915px) {
+    
+    /* sign up */
+    .plan h5 {
+        font-size: 1.8em;
+    }
+
+    .plan h6 {
+        font-size: 1.5em;
+        margin-top: -32px;
+    }
+
+    .su_hlblock {
+        height: 100px;
+    }
+
+    .plan {
+        padding-top: 10px;
+    }
+
+    .learn {
+        padding-top: 20px;
+    }
+}
