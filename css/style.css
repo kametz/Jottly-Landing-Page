@@ -82,7 +82,7 @@ main a {
 
 /* MAIN PHOTO */
 .main_photo {
-    background-image: url("images/laptop_workers_mobile.jpg");
+    background-image: url("../images/laptop_workers_mobile.jpg");
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ input {
 }
 
 .hiw {
-    background-image: url("images/pink_bkg.png");
+    background-image: url("../images/pink_bkg.png");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-color:#fff5f5;
@@ -143,7 +143,7 @@ input {
 /* USERS */
 .users {
     padding-top: 25px;
-    background-image: url("images/user_bkg.png");
+    background-image: url("../images/user_bkg.png");
     background-repeat: no-repeat;
 }
 
@@ -189,7 +189,7 @@ input {
 #letterset_image {
     height: 100%;
     position: relative;
-    background-image: url("images/letterset.jpg");
+    background-image: url("../images/letterset.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -198,7 +198,7 @@ input {
 
 /* SIGN UP */
 .sign_up {
-    background-image: url("images/sign_up_bkg.png"), url("images/user_bkg.png");
+    background-image: url("../images/sign_up_bkg.png"), url("images/user_bkg.png");
     background-repeat: no-repeat;
     background-position: bottom, top;
 }
@@ -283,7 +283,7 @@ input {
 
 /* FOOTER */
 footer {
-    background-image: url("images/footer_bkg.png");
+    background-image: url("../images/footer_bkg.png");
     background-repeat: no-repeat;
     color: #a9a9a9;
     padding: 0 10px;
@@ -368,7 +368,7 @@ footer p {
 
     /* main photo */
     .main_photo {
-        background-image: url("images/laptop_workers.jpg");
+        background-image: url("../images/laptop_workers.jpg");
         background-repeat: no-repeat;  
         height: 100%;  
         background-size: cover;  
