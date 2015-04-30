@@ -24,12 +24,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
 
 </head>
 <body>
@@ -57,7 +59,7 @@
 <!-- Large Photo Section -->
       <div class="row">
         <div class="twelve columns main_photo">
-          <div class="main_headline">
+          <div class="main_headline zoomIn animated">
             <h1>The easy way to write and collaborate.</h1>
             <p>Jott.ly is a powerful app for content 
               creation: edit, post, and share!</p> 
@@ -78,7 +80,7 @@
             organized and the process moving.</p>
             <p>With tools like Version Tracker, Editing Hierarchy, and 
               Custom Flow, Jott.ly takes most of the agony out of herding cats...erm, that is...managing the editing process.</p>
-            <a href="#">How can Jott.ly work for your team?</a>
+            <a href="#" class="wow slideInUp animated">How can Jott.ly work for your team?</a>
           </div>
           <div class="seven columns hiw_screenshot">
             <img src="images/jottlyscreenshot.png" alt="Jottly Screenshot" class="jottly_screen">
@@ -217,6 +219,12 @@
       </div>
     </footer>
   </div>
+
+  <!-- Javascript -->
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script> 
 
   <script type="text/javascript">
     function thankYou() {
